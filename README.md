@@ -1,4 +1,6 @@
-jsMaths is an extended math library written in Typescript, for JavaScript and Node.js. I miss statistics operations in the native maths library, so this package offers to you a simple and elegant way to work with statistics functions. Powerful and easy to use.
+<img src="jsmaths.png" alt="jsMaths" height=200 />
+
+**jsMaths** is an extended math library written in Typescript, for JavaScript and Node.js. I miss statistics operations in the native maths library, so this package offers to you a simple and elegant way to work with statistics functions. Powerful and easy to use.
 
 ## Features
 
