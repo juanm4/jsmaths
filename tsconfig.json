@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "removeComments": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "declaration": true,
+        "rootDir": "./src",
+        "outDir": "./lib",
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "watch": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/__tests__/*"
+    ]
+}
