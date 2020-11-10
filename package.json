@@ -1,7 +1,7 @@
 {
     "name": "jsmaths",
     "version": "1.0.0",
-    "description": "JSMaths is an extensive math library written in TypeScript for JavaScript and Node.js",
+    "description": "JSMaths is an statistics math library written in TypeScript for JavaScript and Node.js",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
@@ -19,9 +19,15 @@
         "type": "git",
         "url": "git+https://github.com/juanm4/jsmaths.git"
     },
-    "keywords": [],
+    "keywords": ["maths", "js", "statistics", "typescript", "nodejs", "javascript"],
     "author": "Juanma Molina <juanm4@gmail.com>",
-    "license": "ISC",
+    "license": "Apache-2.0",
+    "licenses": [
+        {
+            "type": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
     "bugs": {
         "url": "https://github.com/juanm4/jsmaths/issues"
     },
