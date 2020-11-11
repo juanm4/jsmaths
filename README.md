@@ -7,6 +7,8 @@
 ![](https://img.shields.io/badge/maintained-yes-success)
 ![](https://img.shields.io/badge/license-Apache--2.0-blue)
 
+<br />
+
 ## Features
 
 - Supports mean, median, mode, percentile and range.
@@ -16,6 +18,8 @@
 - Is easily extensible.
 - Open source.
 
+<br />
+
 ## Usage
 
 jsMaths can be used in both node.js and in the browser.
@@ -23,6 +27,8 @@ jsMaths can be used in both node.js and in the browser.
 Install jsMatsh using [npm](https://www.npmjs.com/package/mathjs):
 
     npm install jsmaths
+
+<br />
 
 ### Percentile
 A **percentile** (or a **centile**) is a measure used in statistics indicating the value below which a given percentage of observations in a group of observations falls.
@@ -40,6 +46,8 @@ The percentile function return an exception when:
 - Array is empty
 - Percentile is less than 0 or greater than 100
 
+<br />
+
 ### Median
 A **median** is a value separating the higher half from the lower half of a data sample, a population or a probability distribution. For a data set, it may be thought of as "the middle" value.
 You can execute the median function passing an array of numbers. The median can be one or two numbers, so the function return an array with one or two numbers, depending on the source array.
@@ -53,6 +61,8 @@ const medianTwo = median([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // [8, 10] are the
 **Exceptions**
 The median function return an exception when:
 - Array is empty
+
+<br />
 
 ### Mean (Average)
 For a data set, the **arithmetic mean**, also called the expected value or **average**, is the central value of a discrete set of numbers: specifically, the sum of the values divided by the number of values.
@@ -68,6 +78,8 @@ const meanTwo = mean([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // 10.6 is the mean
 The mean function return an exception when:
 - Array is empty
 
+<br />
+
 ### Mode
 The mode is the value that appears most often in a set of data values. In other words, it is the value that is most likely to be sampled. When none of the values are repeated, it is said that there is no mode.
 You can calculate the mode of an array using the mode function. It returns and array with modes, or an empty array if there is no mode.
@@ -79,6 +91,8 @@ const modeOne = mode([35, 20, 15, 50, 40]) // [] empty array, no mode exists
 const modeTwo = mode([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // [8] is the mode
 const modeThree = mode([3, 6, 7, 8, 8, 9, 9, 10, 10, 13, 15, 16, 20]) // [8, 9, 10] are the modes
 ```
+
+<br />
 
 ### Range
 The range of a set of data is the difference between the largest and smallest values.
@@ -93,11 +107,15 @@ const rangeTwo = range([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // [3, 20]
 const rangeThree = range([3]) // [3, 3] are the modes
 ```
 **Exceptions**
-The median function return an exception when:
+The range function return an exception when:
 - Array is empty
+
+<br />
 
 ## Browser support
 jsMaths works on any ES5 compatible JavaScript engine: node.js, Chrome, Firefox, Safari, Edge, and IE11.
+
+<br />
 
 ## Test
 
@@ -114,10 +132,14 @@ To test code coverage of the tests:
     npm run coverage
 
 
+<br />
+
 ## Continuous integration testing
 
 Continuous integration tests are run on [Travis CI](https://travis-ci.org/) and [Cocecov](https://www.codecov.io) every time a commit is pushed to github.
 The test results can be checked on https://travis-ci.org/juanm4/jsmaths. Travis CI runs the tests for different versions of node.js.
+
+<br />
 
 ## License
 
