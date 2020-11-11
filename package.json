@@ -1,6 +1,6 @@
 {
     "name": "jsmaths",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "JSMaths is an statistics math library written in TypeScript for JavaScript and Node.js",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -10,7 +10,12 @@
         "watch": "tsc --watch",
         "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
         "lint": "eslint -c .eslintrc.js --ext .ts src",
-        "prepublish": "npm run build"
+        "prepublish": "npm run build",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm test && npm run lint",
+        "preversion": "npm run lint",
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
     },
     "repository": {
         "type": "git",
