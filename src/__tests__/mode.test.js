@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 exports.__esModule = true;
-var mode_1 = require("../functions/mode");
+var mode_1 = require('../functions/mode');
 test('Mode', function () {
     var list1 = [35, 20, 15, 50, 40];
     var list2 = [3, 6, 7, 8, 8, 10, 13, 15, 16, 20];

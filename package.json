@@ -1,6 +1,6 @@
 {
     "name": "jsmaths",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "JSMaths is an statistics math library written in TypeScript for JavaScript and Node.js",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -57,6 +57,8 @@
         "typescript": "^4.0.5"
     },
     "files": [
-        "lib/**/*", "package.json", "README.md"
+        "lib/**/*",
+        "package.json",
+        "README.md"
     ]
 }

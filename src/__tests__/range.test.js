@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 exports.__esModule = true;
-var range_1 = require("../functions/range");
-var exceptions_1 = require("../exceptions/exceptions");
+var range_1 = require('../functions/range');
+var exceptions_1 = require('../exceptions/exceptions');
 test('Range', function () {
     var list1 = [35, 20, 15, 50, 40];
     var list2 = [3, 6, 7, 8, 8, 10, 13, 15, 16, 20];

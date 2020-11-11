@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 exports.__esModule = true;
 exports.mode = void 0;
 exports.mode = function (list) {
@@ -8,8 +8,7 @@ exports.mode = function (list) {
     var i;
     list.forEach(function (num, index) {
         count[num] = (count[num] || 0) + 1;
-        if (count[num] > maxValue)
-            maxValue = count[num];
+        if (count[num] > maxValue) maxValue = count[num];
         i = index;
     });
     for (i in count) {
