@@ -42,7 +42,6 @@ You can execute the median function passing an array of numbers. The median can 
 ```js
 import { median } from 'jsmaths';
 
-// Median from an array of numbers
 const medianOne = median([35, 20, 15, 50, 40]) // [35] is the median
 const medianTwo = median([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // [8, 10] are the median
 ```
@@ -57,7 +56,6 @@ You can execute the mean function passing an array of numbers. It returns a numb
 ```js
 import { mean } from 'jsmaths';
 
-// Mean from an array of numbers
 const meanOne = mean([35, 20, 15, 50, 40]) // 32 is the mean
 const meanTwo = mean([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // 10.6 is the mean
 ```
@@ -72,7 +70,6 @@ You can calculate the mode of an array using the mode function. It returns and a
 ```js
 import { mode } from 'jsmaths';
 
-// Mean from an array of numbers
 const modeOne = mode([35, 20, 15, 50, 40]) // [] empty array, no mode exists
 const modeTwo = mode([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // [8] is the mode
 const modeThree = mode([3, 6, 7, 8, 8, 9, 9, 10, 10, 13, 15, 16, 20]) // [8, 9, 10] are the modes
@@ -86,7 +83,6 @@ The 0 index is the smallest value. The 1 index is the largest value.
 ```js
 import { range } from 'jsmaths';
 
-// Mean from an array of numbers
 const rangeOne = range([35, 20, 15, 50, 40]) // [15, 20] 15 is the smallest and 20 is the largest
 const rangeTwo = range([3, 6, 7, 8, 8, 10, 13, 15, 16, 20]) // [3, 20]
 const rangeThree = range([3]) // [3, 3] are the modes
@@ -112,6 +108,11 @@ To test code coverage of the tests:
 
     npm run coverage
 
+
+## Continuous integration testing
+
+Continuous integration tests are run on [Travis CI](https://travis-ci.org/) and [Cocecov](https://www.codecov.io) every time a commit is pushed to github.
+The test results can be checked on https://travis-ci.org/juanm4/jsmaths. Travis CI runs the tests for different versions of node.js.
 
 ## License
 
