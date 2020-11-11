@@ -7,19 +7,23 @@
     "scripts": {
         "test": "jest --config jestconfig.json",
         "build": "tsc",
+        "watch": "tsc --watch",
         "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
         "lint": "eslint -c .eslintrc.js --ext .ts src",
-        "prepare": "npm run build",
-        "prepublishOnly": "npm test && npm run lint",
-        "preversion": "npm run lint",
-        "version": "npm run format && git add -A src",
-        "postversion": "git push && git push --tags"
+        "prepublish": "npm run build"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/juanm4/jsmaths.git"
     },
-    "keywords": ["maths", "js", "statistics", "typescript", "nodejs", "javascript"],
+    "keywords": [
+        "maths",
+        "js",
+        "statistics",
+        "typescript",
+        "nodejs",
+        "javascript"
+    ],
     "author": "Juanma Molina <juanm4@gmail.com>",
     "license": "Apache-2.0",
     "licenses": [
@@ -34,6 +38,7 @@
     "homepage": "https://github.com/juanm4/jsmaths#readme",
     "devDependencies": {
         "@types/jest": "^26.0.15",
+        "@types/node": "^14.14.7",
         "@typescript-eslint/eslint-plugin": "^4.6.1",
         "eslint-config-prettier": "^6.15.0",
         "eslint-plugin-jest": "^24.1.0",
@@ -43,9 +48,10 @@
         "prettier": "^2.1.2",
         "prettier-eslint": "^11.0.0",
         "ts-jest": "^26.4.3",
+        "ts-node": "^9.0.0",
         "typescript": "^4.0.5"
     },
     "files": [
-        "lib/**/*"
+        "lib/**/*", "package.json", "README.md"
     ]
 }
