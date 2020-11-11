@@ -2,6 +2,11 @@
 
 **jsMaths** is an extended math library written in Typescript, for JavaScript and Node.js. I miss statistics operations in the native maths library, so this package offers to you a simple and elegant way to work with statistics functions. Powerful and easy to use.
 
+![](https://img.shields.io/badge/npm-v1.0.3-blue)
+![](https://img.shields.io/badge/build-passing-success)
+![](https://img.shields.io/badge/maintained-yes-success)
+![](https://img.shields.io/badge/license-Apache--2.0-blue)
+
 ## Features
 
 - Supports mean, median, mode, percentile and range.
